@@ -4,7 +4,8 @@
   "description": "An backend to shopping cart",
   "main": "main.ts",
   "scripts": {
-    "test": "dev"
+    "test": "dev",
+    "dev": "tsnd --respawn src/main.ts"
   },
   "repository": {
     "type": "git",
